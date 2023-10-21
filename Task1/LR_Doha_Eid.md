@@ -65,9 +65,12 @@ The code utilizes several Python packages to perform various tasks. Here are the
 1.  ![](media/018628ea8aa1b1f55d0281c4eb8832a5.tmp)Model using scikit learn library (Model 1):
 -   R2 score : 0.79
 -   MSE: 0.33
+-   ![model1](https://github.com/doha-eid/AI_For_Robotics/assets/81518078/6e7745f3-c10f-40e5-b080-de21a5515a82)
 1.  ![](media/7d0d9f2a52fd8933def833212cef9dd2.tmp)Model using scratch Python code to implement linear regression function (Model 2):
 -   R2 score: 0.74
 -   MSE: 0.26
+-   ![model2](https://github.com/doha-eid/AI_For_Robotics/assets/81518078/f20c65ee-2deb-44e8-887b-0cf7dccfe60c)
+
 -   **Results from two models that:**
 -   Based on the provided results, we can see that the models built using the scikit-learn library (Model 1) outperformed the model implemented from scratch using Python code (Model 2) in terms of both R-squared score and mean squared error (MSE). A higher R-squared score indicates that the scikit-learn model (Model 1) explains more of the variance in the data compared to the scratch implementation (Model 2). Similarly, a lower MSE value indicates that the scikit-learn model has smaller errors on average when predicting the target variable.
 -   Scikit-learn linear regression: Easy to use, optimized, and offers a wide range of functionalities but Limited customization and less transparency in implementation details.
